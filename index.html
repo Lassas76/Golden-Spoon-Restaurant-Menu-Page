@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Golden Spoon Restaurant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background: #fffaf0;
+      color: #333;
+    }
+
+    header {<img src=""C:\Users\Hp\Documents\Classes\School\Ananda College Information Communicattion Technoloy Society\Bits' 25\restaurant-menu-page\Elegant Logo for Golden Spoon Restaurant.png"" alt="Restaurant Logo" style="width:80px; height:auto; margin-bottom:0.5rem;" />
+
+      background-color: #ffd700;
+      color: #222;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .logo-placeholder {"C:\Users\Hp\Documents\Classes\School\Ananda College Information Communicattion Technoloy Society\Bits' 25\restaurant-menu-page\Elegant Logo for Golden Spoon Restaurant.png"
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 0.5rem auto;
+      border: 2px dashed #aaa;
+      border-radius: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #aaa;
+      font-size: 0.9rem;
+      font-style: italic;
+      user-select: none;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      font-style: italic;
+    }
+
+    .menu-section {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .category {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      transition: transform 0.3s ease;
+    }
+
+    .category:hover {
+      transform: translateY(-5px);
+    }
+
+    .category h2 {
+      color: #c0392b;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #f5c518;
+      padding-bottom: 0.5rem;
+    }
+
+    .item {
+      margin-bottom: 1rem;
+    }
+
+    .item-name {
+      font-weight: bold;
+    }
+
+    .price {
+      float: right;
+      font-weight: bold;
+      color: #444;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #f8e5b3;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 500px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      header p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Placeholder box for your logo/image -->
+    <div class="logo-placeholder">
+      Your Logo Here
+    </div>
+    <h1>Golden Spoon Restaurant</h1>
+    <p>Taste the Tradition. Eat with Passion.</p>
+  </header>
+
+  <main class="menu-section">
+    <div class="category">
+      <h2>Main Dishes</h2>
+      <div class="item"><span class="item-name">Egg Fried Rice</span> <span class="price">Rs. 450</span></div>
+      <div class="item"><span class="item-name">Chicken Roti</span> <span class="price">Rs. 200</span></div>
+      <div class="item"><span class="item-name">Vegetable Kottu</span> <span class="price">Rs. 300</span></div>
+    </div>
+
+    <div class="category">
+      <h2>Western Specials</h2>
+      <div class="item"><span class="item-name">Pepperoni Pizza</span> <span class="price">Rs. 850</span></div>
+      <div class="item"><span class="item-name">Crispy Chicken Wings</span> <span class="price">Rs. 600</span></div>
+      <div class="item"><span class="item-name">Cheesy Garlic Bread</span> <span class="price">Rs. 250</span></div>
+    </div>
+
+    <div class="category">
+      <h2>Beverages & Desserts</h2>
+      <div class="item"><span class="item-name">Iced Milo</span> <span class="price">Rs. 180</span></div>
+      <div class="item"><span class="item-name">Fresh Lime Juice</span> <span class="price">Rs. 150</span></div>
+      <div class="item"><span class="item-name">Watalappan</span> <span class="price">Rs. 220</span></div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Golden Spoon Restaurant | Designed with ❤️ by Local Taste Creators
+  </footer>
+</body>
+</html>

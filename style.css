@@ -1,0 +1,103 @@
+/* Reset & Base */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff8f0;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #d62828;
+  color: white;
+}
+
+.logo {
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #f9c74f;
+}
+
+/* Menu Sections */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.menu-section {
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.menu-section h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+/* Theme Colors */
+.red {
+  background-color: #d62828;
+}
+
+.orange {
+  background-color: #f77f00;
+}
+
+.yellow {
+  background-color: #fcbf49;
+  color: #000;
+}
+
+/* List Styling */
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-section li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px dashed #fff;
+  font-size: 1.1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #d62828;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .menu-section li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu-section li span:last-child {
+    align-self: flex-end;
+    font-weight: bold;
+  }
+}
